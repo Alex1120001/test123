@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body, html{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+.wrap-window{
+    background-image: url(../images/img-1.jpg);
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 85%;
+    margin: auto;
+    flex-direction: column;
+    color:#fff;
+    height: 100%;
+}
+header span+span{
+    margin-left: 15px;
+}
+header span a{
+    text-decoration: none;
+    color:#fff;
+    transition: .2s;
+}
+header span a:hover{
+    background-color: #333;
+    padding: 8px;
+    transition: .2s;
+}
+.menu{
+    margin-top: 30px;
+}
+.desc-hero{
+    margin-bottom: 50px;
+    border-bottom: 2px solid #fff;
+}
+.desc-hero h2{
+    font-size: 36px;
+}
+.desc-hero p{
+    color:rgb(230, 230, 230);   
+}
+.block-characteristic{
+    width: 85%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 24% 24% 24% 24%;
+    justify-content: space-between;
+    margin: 10px auto 10px;
+}
+.block-characteristic .block p{
+    text-align: justify;
+}
+.block-characteristic .block{
+    background-color:#ffffff;
+    box-shadow: 1px 5px 5px 5px;
+    padding: 5px 10px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+}
+.biography{
+    width: 85%;
+    margin: 20px auto;
+    background-color:rgb(241, 241, 241);
+    padding: 20px;
+}
+.desc-galery h2{
+    background-color:rgb(19, 88, 153);
+    color:#fff;
+    padding: 10px;
+    text-align: center;
+}
+.block-galary{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    width: 100%;
+    overflow: hidden;
+}
+.img-block img{
+    max-width: 100%;
+    height: 250px;
+}
+footer{
+    background-color:#333;
+    color:#fff;
+}
+.wrap-footer{
+    width: 95%;
+    margin: auto;
+    padding: 15px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.block-footer svg+svg{
+    margin-left: 5px;
+}
+.btn{
+    background-color:rgb(15, 98, 175);
+    color:#fff;
+    padding: 10px;
+    text-decoration: none;
+    border-radius:5px;
+}
