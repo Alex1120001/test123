@@ -87,6 +87,8 @@ header span a:hover{
 }
 .img-block img{
     max-width: 100%;
+    display: flex;
+    margin: auto;
     height: 250px;
 }
 footer{

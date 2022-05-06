@@ -1,0 +1,21 @@
+@media (max-width:1200px){
+    .block-characteristic{
+        grid-template-columns: 49% 49%;
+        grid-row-gap: 20px;
+    }
+}
+
+@media (max-width:900px){
+    .block-galary{
+        grid-template-columns: 50% 50%;
+    }
+}
+
+@media (max-width:760px){
+    .block-characteristic{
+        grid-template-columns: 100%;
+    }
+    .block-galary{
+        grid-template-columns: 100%;
+    }
+}
